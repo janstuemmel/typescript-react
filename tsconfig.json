@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "DOM", "ES2015"
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      "~*": ["./*"]
+    },
+  },
+  "include": ["src/**/*"]
+}
